@@ -1,0 +1,61 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.album {
+    background-color: #222;
+}
+
+.card {
+    background-color: #444;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title,
+.card-text {
+    color: #ccc;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+header[data-bs-theme="dark"] .collapse {
+    background-color: #222;
+}
+
+header[data-bs-theme="dark"] .text-body-secondary,
+header[data-bs-theme="dark"] .text-white {
+    color: #fff;
+}
+
+header[data-bs-theme="dark"] .navbar-dark {
+    background-color: #333;
+}
+
+.text-body-secondary,
+.text-white {
+    color: #fff !important;
+}
+
